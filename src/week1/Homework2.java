@@ -1,7 +1,8 @@
 package week1;
 
 import java.util.Scanner;
-
+//Дано двузначное число
+//Найти: кол-во единиц, десятков, сумму чисел в нем, произведение чисел
 public class Homework2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,6 +22,5 @@ public class Homework2 {
 
         System.out.printf("Число: %d, Единиц: %d, Десятков: %d\n", userNumber, units, decimals);
         System.out.printf("Сумма чисел: %d, Произведение чисел: %d", sum, increase);
-
     }
 }

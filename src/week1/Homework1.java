@@ -17,6 +17,5 @@ public class Homework1 {
         int fullMonths = days/30;
 
         System.out.printf("С дня %d прошло %d недель(-и) и %d месяцев", days, fullWeeks, fullMonths);
-
     }
 }
