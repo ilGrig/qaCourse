@@ -14,8 +14,8 @@ public class Task3 {
         int Radius = sc.nextInt();
 
         if (Radius <= 0) {
-            System.out.println("Радиус должен быть натуральным числом! Попробуй еще раз");
-            Radius = sc.nextInt();
+            System.out.println("Радиус должен быть натуральным числом!");
+            System.exit(0);
         }
 
         double C = (2 * PI) * Radius;
